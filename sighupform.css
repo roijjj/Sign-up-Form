@@ -1,0 +1,74 @@
+
+:root{
+    --ofsize : 75px;
+    --odinsize: 5rem;
+}
+
+@font-face {
+    font-family: odinfon;
+    src: url("images/Norse-Bold.otf");
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+
+    
+}
+.left{
+    display: flex;
+    flex: 35%;
+    background-image: url('images/halie-west-25xggax4bSA-unsplash\ \(1\).jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.odin{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: var(--odinsize);
+    font-family: odinfon;
+    align-self: center;
+    margin-top: 50%;
+}
+.odin > img{
+    max-width: var(--odinsize);
+    height: var(--odinsize);
+   
+}
+.bottomlink{
+    display: flex;
+    justify-content: center;
+    color: azure;
+margin-bottom: 0%;
+}
+.right{
+    display: flex;
+    color: red;
+    flex: 65%;
+    flex-direction: column;
+    
+}
+.tright{
+    flex: 33%;
+
+}
+.mright{
+    flex: 33%;
+    box-shadow: 2px 5px 5px gray;
+}
+.formstuff{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.bright{
+    flex: 33%;
+}
